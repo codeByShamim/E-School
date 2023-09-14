@@ -1,0 +1,507 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins, sans-serif;
+  
+}
+.header-section{
+  padding: 25px 0;
+  background-color: #F0FFF0;
+}
+.header-banner{
+  max-width: 1100px;
+  min-height: 92vh;
+  margin: auto;
+}
+.nav-wrapper{
+  position: relative;
+}
+.nav-bar{
+  width: 100%;
+  height: 71px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#menu-link a{
+  font-family: Poppins, sans-serif;
+  text-decoration: none;
+  color: black;
+  padding: 8px;
+  margin-left: 5px;
+  font-size: 18px;
+  font-weight: 500;
+}
+#menu-link  a:not(:last-child):hover{
+  opacity: 0.6;
+}
+.sign-in{
+  background-color: #21B573;
+  padding:10px 20px !important;
+  color: white !important;
+  border-radius: 30px;
+}
+.sign-in:hover{
+  background-color: #217C58;
+  transition: 0.4s;
+}
+.menu-icon {
+
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: none;
+}
+.menu-icon button{
+  border: none;
+  background-color: transparent;
+  font-size: 24px;
+
+}
+
+.icon{
+  color: black;
+}
+.logo{
+  margin-left: 10px;
+}
+
+
+#side-content_img-wrapper{
+  display: flex;
+  margin-top: 3rem;
+  transition: 0.5s;
+}
+.side-content{
+  width: 50%;
+  margin-right: 4%;
+}
+.side-content h5{
+  font-size: 20px;
+  font-weight: 400;
+  color: #FD511A;
+}
+.side-content h1{
+  font-size: 7.3vh;
+  font-weight: 700;
+  color: #212529;
+  line-height: 70px;
+}
+.side-content span{
+  color: #21B573;
+}
+.side-content p {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 36px;
+  color: rgb(87, 87, 87);
+}
+ .get-started{
+  background-color: #21B573;
+  padding:15px 20px !important;
+  color: white !important;
+  border-radius: 30px;
+  text-decoration: none;
+  border: 1px solid black;
+}
+.img{
+  width: 50%;
+}
+.wrapper-section{
+  background-color: #f5f5f5;
+  
+}
+.second-section-wrapper{
+  max-width:1100px ;
+  margin: auto;
+  text-align: center;
+}
+.learn-anything{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 80px;
+  margin-bottom: 100px;
+  padding-left: 20px;
+}
+.learn{
+  width: 46%;
+  min-height: 200px;
+  margin-right: 22px;
+  text-align: center;
+  background-color: #f6fff6;
+  padding: 30px;
+  border-radius: 10px;
+}
+.learn2{
+  display: flex;
+  width: 100%;
+ 
+}
+.learn:hover{
+  background-color: white;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.learn h2{
+  font-size: 25px;
+  font-weight: 600;
+  color: #413960;
+}
+.learn h5{
+  font-size: 17px;
+  font-weight: 400;
+  color: rgb(87, 87, 87);
+}
+
+
+.h1{
+  font-size: 38px;
+  font-weight: 700;
+  color: #504679;
+  margin-bottom: 80px;
+}
+#course-wrapper{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.course{
+  padding: 15px;
+  width: 32%;
+  text-align: left;
+  background-color: white;
+}
+.course h1{
+  font-size: 27px;
+  font-weight: 600;
+  color:RGB(65, 57, 96);
+}
+.course h5{
+  font-size: 18px;
+  font-weight: bold;
+  color: #212529;
+  opacity: 0.8;
+}
+.course a{
+  text-decoration: none;
+  color: white;
+  background-color: #21B573;
+  padding: 8px 20px;
+  border-radius: 30px;
+  transition: 0.4s;
+ 
+}
+.course a:hover{
+  background-color: #217C58;
+}
+.galery-item-ul{
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  opacity: 0.7;
+}
+.galery-item-ul .fa-solid{
+  margin-right: 5px;
+}
+.testimonial{
+  width: 100%;
+  padding: 0px;
+  padding-top: 100px;
+  font-size: 22px;
+  font-weight: 700;
+  padding-bottom: 100px;
+}
+.footer-wrapper{
+  background-color: #282531;
+}
+footer{
+  max-width: 1100px;
+  margin: auto;
+  display: flex;
+  padding-top: 40px;
+  color: white;
+}
+.all-link a{
+  display: block;
+  margin-bottom: 10px;
+}
+.left-content{
+  width: 40%;
+}
+.left-content p{
+  text-align:left;
+}
+.right-link{
+  width: 60%;
+  display: flex;
+}
+.all-link{
+  width: 33%;
+  text-align: center;
+}
+footer p{
+  font-size: 16px;
+  font-weight: 400;
+  color: white;
+  line-height: 30px;
+}
+footer h3{
+  margin-bottom: 20px;
+}
+footer a{
+  text-decoration: none;
+  color: white;
+  margin-bottom: 5px;
+  border-bottom: 2px ;
+
+}
+footer a:hover{
+  opacity: 0.6;
+  /* border-bottom: 2px solid gray; */
+  display: inline-block;
+}
+.footer-wrapper{
+  text-align: center;
+  padding: 0 20px 50px 20px;
+}
+.powered {
+  color: white;
+  margin: 20px 0;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  height: 320px;
+}
+
+
+/* Slides */
+.mySlides {
+  text-align: center;
+  display: none;
+  padding: 80px;
+  text-align: center;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #888;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.prev{
+  position: absolute;
+  left: 0;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: #F0FFF0;
+  color: black;
+}
+
+/* The dot/bullet/indicator container */
+.dot-container {
+    text-align: center;
+    padding: 20px;
+    background: #ddd;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot/circle */
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Add an italic font style to all quotes */
+q {font-style: italic;}
+
+/* Add a blue color to the author */
+.author {color: cornflowerblue;}
+@media screen and (max-width: 560px){
+ .learn-anything{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+ }
+  .learn {
+    width: 100% !important;
+    margin-right: 0;
+    justify-self: center;
+  }
+  .learn2{
+    width: 100% !important;
+    
+  }
+  footer{
+    flex-direction: column;
+   justify-content: center;
+  }
+  .left-content{
+    width: 100%;
+    border-bottom: 2px solid gray;
+  }
+  .right-link{
+    margin-top: 50px;
+    width: 100%;
+    flex-direction: column;
+  }
+  .all-link{
+    width: 100% !important;
+  }
+  .all-link h3{
+    display: inline-block;
+    margin-top: 30px;
+    border-bottom: 2px solid gray;
+  }
+  .slideshow-container{
+    height: 450px;
+  }
+
+}
+@media screen and (max-width: 768px){
+  #side-content_img-wrapper{
+    flex-direction: column-reverse;
+  }
+  .side-content {
+    width: 100%;
+    margin-right: 0;
+    margin-top: 5%;
+  }
+  .img{
+    width: 100%;
+    
+  }
+  #course-wrapper{
+    flex-direction: column;
+  }
+  .course{
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .galery-item-ul li{
+    font-size: 18px;
+  }
+  .slideshow-container{
+    min-height: 350px;
+  }
+  
+
+}
+@media screen and (max-width: 992px) {
+  .nav-bar{
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  #menu-link{
+    display: none;
+    align-self: center;
+    text-align: center;
+    animation-name: shutter-in-top;
+    animation-duration: 0.3s;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-direction:alternate;
+    animation-fill-mode:forwards;
+    }
+    @keyframes shutter-in-top {
+      0%{
+        transform: rotateX(-100deg);
+        transform-origin: top;
+        opacity: 0;
+      }
+      50%{
+        transform: rotateX(-50deg);
+        transform-origin: top;
+        opacity: 0;
+      }
+      100%{
+        transform: rotateX(0deg);
+        transform-origin: top;
+        opacity: 1;
+      }
+    }
+  
+  #menu-link a{
+    display: block;
+  }
+  .menu-icon{
+    display: block;
+    line-height: 71px;
+  }
+  .side-content h1{
+    line-height: 50px;
+  }
+  .learn-anything{
+    width: 100%;
+    justify-content: center;
+    padding: 0 5%;
+  }
+  .learn2{
+    width: 95%;
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .learn{
+    width: 95%;
+    height: 200px;
+    margin-bottom: 22px;
+    
+  }
+  .second-section-wrapper{
+    padding: 0 5%;
+  }
+  .galery-item-ul li{
+    font-size: 10px;
+  }
+  .learn-anything{
+    padding-top: 80px;
+  }
+ 
+}
+@media screen and (max-width: 1150px) {
+  .header-banner{
+    min-height: 90vh;
+    padding: 0px 5%;
+  }
+  .second-section-wrapper{
+    padding: 0 5%;
+  }
+  .logo{
+    margin-left: 0;
+  }
+  
+
+}
+
